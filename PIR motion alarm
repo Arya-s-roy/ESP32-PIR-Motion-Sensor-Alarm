@@ -12,4 +12,8 @@ void loop() {
     Serial.println("Motion Detected!");
     tone(buzzerPin, 1000);
     delay(500);
+    noTone(buzzerPin);
+  }
+  delay(100);
+}
 

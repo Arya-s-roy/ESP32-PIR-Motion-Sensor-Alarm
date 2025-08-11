@@ -10,3 +10,6 @@ void loop() {
   int motion = digitalRead(pirPin);
   if (motion) {
     Serial.println("Motion Detected!");
+    tone(buzzerPin, 1000);
+    delay(500);
+

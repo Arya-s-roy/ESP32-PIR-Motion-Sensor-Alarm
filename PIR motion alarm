@@ -1,0 +1,3 @@
+const int pirPin = 14;
+const int buzzerPin = 27;
+

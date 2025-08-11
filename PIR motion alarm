@@ -3,4 +3,7 @@ const int buzzerPin = 27;
 
 void setup() {
   pinMode(pirPin, INPUT);
+  pinMode(buzzerPin, OUTPUT);
+  Serial.begin(115200);
+}
 

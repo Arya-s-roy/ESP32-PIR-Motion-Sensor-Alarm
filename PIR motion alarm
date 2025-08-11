@@ -1,3 +1,6 @@
 const int pirPin = 14;
 const int buzzerPin = 27;
 
+void setup() {
+  pinMode(pirPin, INPUT);
+

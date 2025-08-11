@@ -6,4 +6,7 @@ void setup() {
   pinMode(buzzerPin, OUTPUT);
   Serial.begin(115200);
 }
+void loop() {
+  int motion = digitalRead(pirPin);
+  if (motion) {
 

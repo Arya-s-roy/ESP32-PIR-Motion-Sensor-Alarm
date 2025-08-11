@@ -9,4 +9,4 @@ void setup() {
 void loop() {
   int motion = digitalRead(pirPin);
   if (motion) {
-
+    Serial.println("Motion Detected!");
